@@ -7,7 +7,7 @@ module testbench();
 
      initial begin //setando entrada com tabela verdade
 
-$dumpfile("codificador.vcd");
+      $dumpfile("codificador.vcd");
       $dumpvars(0, testebench);
       reset=1;
       #1; reset=0;
