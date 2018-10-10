@@ -1,4 +1,4 @@
-module codificador (a,b,c,d,m1,reset, ready);
+module codificador (a,b,c,d,m1,m2, m3, m4, m5, reset, ready);
   input wire a,b,c,d,reset, ready;
   output reg m1,m2,m3,m4,m5;
 
