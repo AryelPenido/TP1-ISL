@@ -1,5 +1,5 @@
 `include "codificador.v"
-module testbench();
+module testebench();
      reg a,b,c,d,reset,ready;
      wire m1,m2,m3,m4,m5;
      codificador codificador_0(.a(a),.b(b),.c(c),.d(d),.reset(reset),.ready(ready));
