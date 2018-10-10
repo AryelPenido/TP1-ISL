@@ -12,7 +12,7 @@ module testbench();
       $monitor("%b%b%b%b = %b", a, b, c, d, m3);
       $monitor("%b%b%b%b = %b", a, b, c, d, m4);
       $monitor("%b%b%b%b = %b", a, b, c, d, m5);
-      
+
      end
 
      initial begin //setando entrada com tabela verdade
