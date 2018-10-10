@@ -18,7 +18,7 @@ module teste (a,b,c,d,m1,reset, ready);
       m5 = (a & ~b & ~c) | (~a & b & d) | (~a & b & c);
     end
 
-    
+
     end
 
 endmodule
