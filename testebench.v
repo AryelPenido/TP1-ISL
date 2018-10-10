@@ -7,11 +7,8 @@ module testbench();
       $dumpfile("teste.vcd");
       $dumpvars(0, testbench);
       $display("ola, eu sou um testbench");
-      $monitor("%b%b%b%b = %b", a, b, c, d, m1);
-      $monitor("%b%b%b%b = %b", a, b, c, d, m2);
-      $monitor("%b%b%b%b = %b", a, b, c, d, m3);
-      $monitor("%b%b%b%b = %b", a, b, c, d, m4);
-      $monitor("%b%b%b%b = %b", a, b, c, d, m5);
+      $monitor("%b%b%b%b = %b%b%b%b%b", a, b, c, d, m1,m2,m3,m4,m5);
+
 
      end
 
